@@ -1,0 +1,223 @@
+<!--
+Continue a T01:
+    1. Use as tags semânticas para dividir a seção (no lugar das divs)
+    2. Adicione um novo artigo com formulário de cadastro de usuários.
+    Esse usuário deve fazer requisições GET à página
+    https://www.w3schools.com/action_page.php. Seu formulário
+    deve conter:
+        a. Um campo texto para nome com que permite no máximo 15
+        caracteres
+        b. Um campo texto apenas para leitura
+        c. Um campo numérico para inserir números entre 25000 e
+        30000
+        d. Um input do tipo radiobox
+        e. Um input do tipo checkbox
+    3. Comente o seu código!
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Meus albuns favoritos </title>
+    </head>
+
+    <body>
+
+        <center>
+            <h1> Top 3 albúns favoritos de Bianca Alves </h1>
+
+            <p> Este site possui uma seleção dos meus três albúns favoritos do momento  </p>
+        </center>
+    
+        <ul> <!-- Queria que fosse possível visualizar as capas dos albúns, então todas elas são clicáveis--> 
+                <section> <!-- fiz as divs dos albúns se tornarem sections, já que de alguma forma todas elas tem a ver com música-->
+                    <center>
+                    <a href="https://open.spotify.com/intl-pt/album/6bN5oG5wKJJqO0j7OhXVNt"> 
+                        <img src="https://musicainstantanea.com.br/wp-content/uploads/2021/08/Marina-Sena-De-Primeira-compressed-scaled.jpg" alt="De primeira - Marina Sena" style="width: 200px;"/>
+                    <h5> De primeira - Marina Sena </h5>
+                    </a>
+                    </center>
+                </section>
+
+                <section> 
+                    <center>
+                    <a href="https://open.spotify.com/intl-pt/album/5cUY5chmS86cdonhoFdn8h"> 
+                        <img src="https://cdn.smehost.net/sonymusicpt-ptprod/wp-content/uploads/2020/03/Cover-DIG-AmarElo-Emicida.jpg" alt="Amarelo - Emicida" style="width: 200px;"/>
+                    <h5> Amarelo - Emicida </h5>
+                    </a>
+                    </center>
+                </section>
+
+                <section> 
+                    <center>
+                    <a href="https://open.spotify.com/intl-pt/album/4UlGauD7ROb3YbVOFMgW5u"> 
+                        <img src="https://upload.wikimedia.org/wikipedia/pt/e/eb/Capa_de_Anti_%28%C3%A1lbum%29.png" alt="Anti - Rihanna" style="width: 200px;"/>
+                    <h5> Anti - Rihanna </h5>
+                    </a>
+                </center>
+                </section>
+                
+        </ul>
+    </br>
+
+    <center>
+        <table border="5px"> <!--Fiz uma tabela com todas a músicas dos três albúns (permaneci com a tag table)-->
+            <tr>
+                <th>De primeira - Marina Sena</th>
+                <th>Amarelo - Emicida </th>
+                <th>Anti - Rihanna</th>
+            </tr>
+
+            <tr>
+                <td><b> Me toca</b></td> <!--Coloquei em negrito as músicas que mais gosto de cada álbum -->
+                <td><b>Principia</b></td>
+                <td><b>Consideration</b></td>
+            
+            </tr>
+
+            <tr>
+                <td><b>Pelejei</b></td> 
+                <td><b>A Ordem Natural das Coisas</b></td>
+                <td> James Joint</td>
+            
+            </tr>
+
+            <tr>
+                <td><b>Por supuesto</b></td> 
+                <td><b>Pequenas Alegrias da Vida Adulta</b></td>
+                <td><b>Kiss It Better</b></td>
+            
+            </tr>
+
+            <tr>
+                <td> Cabelo </td> 
+                <td> Quem tem um amigo (tem tudo)</td>
+                <td> <b>Work</b></td>
+            
+            </tr>
+
+            <tr>
+                <td><b>Voltei pra mim</b></td> 
+                <td><b>Paisagem</b></td>
+                <td><b>Desperado</b></td>
+            
+            </tr>
+
+            <tr>
+                <td> Temporal </td> 
+                <td> Cananéia, Iguape e Ilha Comprida</td>
+                <td><b>Woo</b></td>
+            
+            </tr>
+
+            <tr>
+                <td> Tamborim</td> 
+                <td><b>9nha</b></td>
+                <td><b>Needed Me</b></td>
+            
+            </tr>
+
+
+            <tr>
+                <td><b>Amiúde</b></td> 
+                <td><b>Ismália</b></td>
+                <td>Yeah, I Said It</td>
+            
+            </tr>
+
+
+            <tr>
+                <td><b>Seu olhar</b></td> 
+                <td>Eminência Parda</td>
+                <td> Same Ol' Mistakes </td>
+            
+            </tr>
+
+
+            <tr>
+                <td><b>Santo</b></td> 
+                <td><b>AmarElo</b></td>
+                <td> Never Ending </td>
+            
+            </tr>
+
+
+            <tr>
+                <td></td> 
+                <td>Libre</td>
+                <td><b>Love on the Brain</b></td>
+            
+            </tr>
+
+
+            <tr>
+                <td></td> 
+                <td></td>
+                <td><b>Higher</b></td>
+            
+            </tr>
+
+            <tr>
+                <td></td> 
+                <td></td>
+                <td> Close To You</td>
+            
+            </tr>
+
+
+            <tr>
+                <td></td> 
+                <td></td>
+                <td><b>Goodnight Gotham</b></td>
+            
+            </tr>
+
+
+            <tr>
+                <td></td> 
+                <td></td>
+                <td> Pose </td>
+            
+            </tr>
+
+
+            <tr>
+                <td></td> 
+                <td></td>
+                <td> Sex With Me</td>
+            
+            </tr>
+        </table>
+    </center>
+        </br>
+            <center><h3> Bônus</h3></center>
+            <center><h4> Antes de conferir a tabela confira uma de minhas playlists clicando</h4></center>
+            <a href="https://open.spotify.com/playlist/1n5Iw7PSkDBLNMuii0zuzE?si=dWv561R1QNerXbqs7PtfgQ">
+                <center>
+                    → aqui ← 
+                </center>
+            </a>
+        </br>
+
+       <form action="https://www.w3schools.com/action_page.php"> <!--Adicionei um formulário que leva ao site solicitado-->
+        <center>
+        <h3> Me fale sobre o que achou dessa seleção de albúns </h3> <!-- Coloquei isso como campo de texto para leitura, assim como os parágrafos-->
+            <p> Coloque seu nome: </p>
+        <input type="text" id="nome" name="nome" maxlength="15"> <!--Campo de texto para nome com no máximo 15 caracteres--> </br>
+        <p> Que nota você dá para essa seleção de albúns? (sendo 2500 o mínimo e 5000 o máximo)</p>
+        <input type = "number" name = "number" min = "2500" max = "30000">
+        <p> Você já tinha escutado algum desses artistas? </p>
+        <input type = "radio" name = "options" value = "options"> Sim,todos eles </br>
+        <input type = "radio" name = "options" value = "options"> Sim, mas não todos </br>
+        <input type = "radio" name = "options" value = "options"> Não, nenhum deles </br>
+        <p> Qual desses albúns você mais gostou de ouvir nessa seleção de músicas</p>
+        <input type = "checkbox" name = "music" value = "music"> De primeira - Marina Sena </br>
+        <input type = "checkbox" name = "music" value = "music"> Amarelo - Emicida </br>
+        <input type = "checkbox" name = "music" value = "music"> Anti - Rihanna </br>
+        <input type = "checkbox" name = "music" value = "music"> Nenhum deles </br></br>
+        <input type="submit" value="Enviar" >
+    </center>
+       </form> 
+        
+    </body>
+</html>
